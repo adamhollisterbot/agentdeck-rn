@@ -17,7 +17,7 @@ export const SettingsScreen: React.FC = () => {
   const supabaseConnected = isSupabaseConfigured();
 
   const handleOpenWebsite = () => {
-    Linking.openURL('https://app.projectmanagementmvp.com');
+    Linking.openURL('https://adamhollisterbot.github.io/agentdeck/');
   };
 
   return (
@@ -63,7 +63,7 @@ export const SettingsScreen: React.FC = () => {
             <Text style={styles.linkIcon}>🌐</Text>
             <View style={styles.linkInfo}>
               <Text style={styles.linkTitle}>Open Web Version</Text>
-              <Text style={styles.linkHint}>app.projectmanagementmvp.com</Text>
+              <Text style={styles.linkHint}>agentdeck web app</Text>
             </View>
             <Text style={styles.linkArrow}>→</Text>
           </TouchableOpacity>
@@ -77,7 +77,7 @@ export const SettingsScreen: React.FC = () => {
             <Text style={styles.appName}>AgentDeck</Text>
             <Text style={styles.appVersion}>Version 1.0.0</Text>
             <Text style={styles.appDescription}>
-              A mobile companion for the Project Management MVP. Manage your projects,
+              A mobile companion for AgentDeck. Manage your projects,
               boards, and tasks on the go with the same cyberpunk aesthetic.
             </Text>
           </View>
