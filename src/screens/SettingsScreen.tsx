@@ -17,7 +17,8 @@ export const SettingsScreen: React.FC = () => {
   const supabaseConnected = isSupabaseConfigured();
 
   const handleOpenWebsite = () => {
-    Linking.openURL('https://adamhollisterbot.github.io/agentdeck/');
+    // TODO: Update with Cloudflare Pages URL
+    Linking.openURL('https://agentdeck.pages.dev');
   };
 
   return (
