@@ -1,6 +1,6 @@
-# AgentDeck 📱
+# AgentDeck RN 📱
 
-A React Native mobile companion app for the [Project Management MVP](https://app.projectmanagementmvp.com) website.
+A React Native mobile companion app for [AgentDeck](https://adamhollisterbot.github.io/agentdeck/).
 
 ![Synthpunk Theme](https://img.shields.io/badge/Theme-Synthpunk-00ffcc?style=flat-square)
 ![React Native](https://img.shields.io/badge/React%20Native-Expo-ff00ff?style=flat-square)
